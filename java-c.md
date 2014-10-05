@@ -99,9 +99,9 @@ LONG lRet = RegOpenKeyEx(HKEY_LOCAL_MACHINE,
 For SQL statements, break up lines by keywords:
 ```C#
 csSQL.Format("UPDATE Sysport "
-	     "SET Enabled = TRUE, "
-	     " StreamChan = (? + VAL(RIGHT(Extension, 6))) "
-	     "WHERE Extension BETWEEN ? AND ?");
+             "SET Enabled = TRUE, "
+             " StreamChan = (? + VAL(RIGHT(Extension, 6))) "
+             "WHERE Extension BETWEEN ? AND ?");
 ```
 
 ## References 
