@@ -1,4 +1,4 @@
-# Knicknak's Style guide for Objective C code
+# JT's Objective-C Style Guide
 
 ## Constants 
 For constant strings, prefer const NSStrings over #defines (ensures type-safety, limits scope)
