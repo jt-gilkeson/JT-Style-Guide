@@ -83,8 +83,8 @@ finally
 ## Additional Suggestions 
 Line up variables and constants:
 ```C#
-private static final int    EXT_COL		= 0;
-private static final int    NAME_COL		= 1;
+private static final int    EXT_COL             = 0;
+private static final int    NAME_COL            = 1;
 private static final String DISP_NAME_SEPERATOR = " - ";
 ```
 
