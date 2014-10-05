@@ -1,4 +1,4 @@
-# JT's Java/C#/C++ Style Guide
+# JT's Java / C# / C / C++ Style Guide
 
 ## Spacing 
 
