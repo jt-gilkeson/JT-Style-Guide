@@ -116,3 +116,5 @@ http://httpd.apache.org/dev/styleguide.html
 http://geosoft.no/javastyle.html
 
 http://www.javaranch.com/style.jsp
+
+https://source.android.com/source/code-style.html
