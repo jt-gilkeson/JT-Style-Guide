@@ -60,7 +60,7 @@ Braces should follow Allman/BSD/C/Braces Left style:
 * Braces always on their own line
 * Opening and closing braces line up vertically
 * Pairs of related keywords line up vertically (if, else if, else) (@try, @catch, @finally) (do, while)
-* Exceptions: inline blocks and closing brace for typedefs:
+* Exceptions: inline blocks:
 
 ```Objective-C
 dispatch_async(fileIOQueue_, ^{
@@ -71,12 +71,12 @@ dispatch_async(fileIOQueue_, ^{
     }
 });
 
-typedef enum 
+typedef NS_ENUM(NSInteger, ShapeType) 
 {
     Circle,
     Rectangle,
     Triagle
-} ShapeType;
+};
 
 @try
 {
