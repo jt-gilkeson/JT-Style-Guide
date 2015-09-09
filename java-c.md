@@ -92,7 +92,7 @@ Try to have only 80-120 columns per line.
 If you must break a single statement into multiple lines, try to maximize readability:
 ```C#
 LONG lRet = RegOpenKeyEx(HKEY_LOCAL_MACHINE,
-			 "SOFTWARE\\Vertical Networks\\InstantOffice", 
+			 "SOFTWARE\\CompanyName\\Product", 
 			 0, KEY_READ, &hKeyRoot);
 ```
 
